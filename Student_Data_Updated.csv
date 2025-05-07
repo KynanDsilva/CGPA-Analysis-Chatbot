@@ -1,0 +1,134 @@
+id,Gender,Age,City,Country,Profession,Academic Pressure,CGPA,Sleep Duration,Dietary Habits,Degree,Work/Study Hours,Financial Stress,Internet Usage (hrs/day),Physical Activity (hrs/week),Part-Time Job,Social Media Usage (hrs/day),Parental Education Level,Study Environment,Travel Time to Institution (mins),Access to Study Resources,Mental Health Rating (1-5),Number of Siblings
+2,Male,33,Visakhapatnam,India,Student,5,8.97,5-6 hours,Healthy,B.Pharm,3,1,5.4,5,No,4.8,Bachelor,Quiet,13,Yes,1,2
+8,Female,24,Bangalore,India,Student,2,5.9,5-6 hours,Moderate,BSc,3,2,5.7,7,No,1.3,Master,Quiet,80,Yes,5,2
+26,Male,31,Srinagar,India,Student,3,7.03,Less than 5 hours,Healthy,BA,9,1,3.6,9,No,2.8,Bachelor,Quiet,29,No,4,2
+30,Female,28,Varanasi,India,Student,3,5.59,7-8 hours,Moderate,BCA,4,5,5.2,6,No,2.2,Master,Noisy,40,No,2,4
+32,Female,25,Jaipur,India,Student,4,8.13,5-6 hours,Moderate,M.Tech,1,1,5.7,6,No,2.5,High School,Noisy,8,No,4,2
+33,Male,29,Pune,India,Student,2,5.7,Less than 5 hours,Healthy,PhD,4,1,5.1,1,Yes,4.2,Bachelor,Noisy,65,No,4,0
+52,Male,30,Thane,India,Student,3,9.54,7-8 hours,Healthy,BSc,1,2,4.6,4,Yes,4.8,PhD,Moderate,66,Yes,1,0
+56,Female,30,Chennai,India,Student,2,8.04,Less than 5 hours,Unhealthy,Class 12,0,1,3,8,No,1.9,Master,Noisy,53,Yes,1,3
+59,Male,28,Nagpur,India,Student,3,9.79,7-8 hours,Moderate,B.Ed,12,3,1.8,9,No,1.1,PhD,Moderate,23,Yes,4,1
+62,Male,31,Nashik,India,Student,2,8.38,Less than 5 hours,Moderate,LLB,2,5,4,0,Yes,2,PhD,Quiet,87,Yes,3,1
+83,Male,24,Nagpur,India,Student,3,6.1,5-6 hours,Moderate,Class 12,11,1,6,5,Yes,4,Master,Moderate,33,Yes,2,3
+91,Male,33,Vadodara,India,Student,3,7.03,Less than 5 hours,Healthy,BE,10,2,2.8,4,No,1.2,Bachelor,Quiet,21,Yes,1,3
+94,Male,27,Kalyan,India,Student,5,7.04,Less than 5 hours,Moderate,M.Tech,10,1,5,3,No,3.5,Master,Noisy,54,No,5,0
+100,Female,19,Rajkot,India,Student,2,8.52,Less than 5 hours,Unhealthy,Class 12,6,2,3.1,5,Yes,4.4,Master,Moderate,70,No,1,4
+103,Female,19,Kalyan,India,Student,5,5.64,Less than 5 hours,Moderate,Class 12,4,5,5.3,2,No,4.1,High School,Moderate,13,Yes,1,2
+106,Male,29,Srinagar,India,Student,3,8.58,More than 8 hours,Moderate,M.Tech,10,2,1.5,5,Yes,3.4,PhD,Noisy,36,Yes,3,3
+120,Male,25,Nashik,India,Student,5,6.51,Less than 5 hours,Unhealthy,M.Ed,2,5,3,9,No,3.9,Master,Moderate,68,Yes,4,0
+132,Female,20,Ahmedabad,India,Student,5,7.25,5-6 hours,Healthy,Class 12,10,3,4.9,2,Yes,2.5,Bachelor,Quiet,66,Yes,3,4
+139,Male,19,Chennai,India,Student,2,7.83,7-8 hours,Unhealthy,Class 12,6,3,4.3,2,No,2.1,High School,Quiet,86,No,3,2
+145,Male,25,Kalyan,India,Student,3,9.93,5-6 hours,Moderate,B.Ed,8,3,3.4,1,Yes,2.1,Bachelor,Moderate,37,Yes,1,3
+161,Male,29,Kolkata,India,Student,3,8.74,5-6 hours,Moderate,B.Ed,1,1,2.5,8,Yes,2.2,Bachelor,Moderate,8,Yes,1,4
+162,Male,29,Kolkata,India,Student,3,6.73,7-8 hours,Moderate,M.Tech,0,1,5.4,7,Yes,3.7,Bachelor,Noisy,45,Yes,4,0
+166,Female,25,Ahmedabad,India,Student,3,5.57,More than 8 hours,Unhealthy,MSc,10,5,5.6,4,Yes,3.2,Bachelor,Moderate,60,Yes,1,1
+172,Male,23,Thane,India,Student,1,8.59,7-8 hours,Healthy,BHM,11,3,1.8,0,Yes,1.5,Bachelor,Quiet,12,Yes,2,4
+173,Male,18,Bangalore,India,Student,4,7.1,More than 8 hours,Unhealthy,Class 12,11,5,5.7,9,No,4.3,Master,Quiet,13,Yes,1,2
+176,Female,20,Mumbai,India,Student,5,8.58,7-8 hours,Moderate,Class 12,2,2,1.2,3,Yes,1.3,High School,Quiet,27,No,3,3
+186,Male,31,Ahmedabad,India,Student,2,6.08,7-8 hours,Moderate,LLB,3,3,2.9,8,Yes,4.7,High School,Noisy,87,No,4,4
+193,Male,25,Lucknow,India,Student,3,7.25,More than 8 hours,Unhealthy,M.Ed,10,5,5.6,0,No,3.3,Master,Moderate,46,No,1,4
+208,Male,33,Indore,India,Student,5,5.74,Less than 5 hours,Moderate,M.Pharm,8,3,6,1,Yes,1.9,Master,Quiet,34,Yes,4,3
+214,Male,28,Kalyan,India,Student,3,9.86,7-8 hours,Unhealthy,M.Pharm,11,2,4,5,No,0.6,High School,Quiet,88,Yes,3,0
+222,Male,18,Surat,India,Student,4,6.7,Less than 5 hours,Moderate,Class 12,5,4,5.9,3,Yes,2.6,PhD,Moderate,54,Yes,1,0
+232,Male,18,Visakhapatnam,India,Student,2,6.21,5-6 hours,Unhealthy,Class 12,4,2,3.6,0,No,3.7,PhD,Quiet,84,No,1,1
+239,Male,21,Jaipur,India,Student,1,7.25,Less than 5 hours,Healthy,MCA,7,2,1.6,5,Yes,3.8,Bachelor,Moderate,54,Yes,4,4
+240,Female,31,Kalyan,India,Student,1,5.87,7-8 hours,Healthy,PhD,8,4,3.5,2,No,3.5,PhD,Noisy,37,No,3,3
+242,Male,21,Surat,India,Student,1,8.04,More than 8 hours,Healthy,MA,0,3,4.3,3,Yes,2.8,High School,Moderate,18,No,3,2
+253,Female,25,Ludhiana,India,Student,1,6.37,7-8 hours,Moderate,B.Pharm,2,2,1.4,0,No,1.4,PhD,Moderate,19,No,4,0
+255,Female,21,Bhopal,India,Student,5,9.72,5-6 hours,Moderate,B.Com,0,4,5.1,3,No,0.7,PhD,Quiet,54,No,1,3
+263,Male,28,Srinagar,India,Student,5,5.88,7-8 hours,Unhealthy,BCA,9,1,5.6,1,No,3.4,High School,Noisy,23,Yes,3,1
+270,Male,28,Thane,India,Student,1,9.56,7-8 hours,Unhealthy,MD,6,3,3.1,7,No,4.5,Master,Moderate,72,Yes,1,4
+273,Male,25,Meerut,India,Student,3,6.51,7-8 hours,Unhealthy,B.Pharm,3,4,2.1,4,No,2.8,Bachelor,Noisy,12,No,2,2
+274,Female,20,Thane,India,Student,3,6.99,7-8 hours,Moderate,Class 12,11,5,2.1,9,No,0.7,Master,Quiet,5,No,4,4
+277,Male,23,Agra,India,Student,2,6.1,5-6 hours,Unhealthy,MSc,10,1,2.8,3,Yes,3.4,PhD,Noisy,77,No,1,1
+280,Male,19,Agra,India,Student,1,5.24,5-6 hours,Healthy,Class 12,2,1,3.6,1,Yes,3.1,Bachelor,Moderate,33,No,4,0
+285,Female,33,Ghaziabad,India,Student,4,9.21,Less than 5 hours,Unhealthy,MBA,10,5,1.5,4,No,5,Master,Quiet,42,Yes,2,2
+294,Female,23,Chennai,India,Student,1,7.85,More than 8 hours,Unhealthy,BE,12,5,3.7,8,Yes,3.4,Master,Quiet,49,Yes,3,3
+301,Male,22,Lucknow,India,Student,1,9.93,7-8 hours,Unhealthy,B.Ed,10,1,4.9,5,Yes,2.4,PhD,Noisy,5,Yes,3,3
+303,Female,19,Meerut,India,Student,2,6.95,Less than 5 hours,Healthy,Class 12,2,3,5.1,2,Yes,1.2,Bachelor,Moderate,28,No,2,3
+305,Female,30,Hyderabad,India,Student,1,5.86,Less than 5 hours,Healthy,BSc,1,4,4.5,9,Yes,3,High School,Quiet,67,Yes,5,1
+310,Male,21,Kalyan,India,Student,3,7.04,Less than 5 hours,Unhealthy,MSc,1,5,1.7,7,Yes,1.9,Bachelor,Noisy,84,No,4,1
+312,Female,19,Rajkot,India,Student,5,6.99,More than 8 hours,Healthy,Class 12,0,4,4.8,0,Yes,3.6,High School,Noisy,75,Yes,3,2
+315,Male,23,Kalyan,India,Student,3,7.92,Less than 5 hours,Moderate,B.Com,10,4,2.6,1,Yes,3.7,PhD,Quiet,60,Yes,4,1
+316,Female,23,Vasai-Virar,India,Student,5,9.66,7-8 hours,Healthy,BHM,12,5,3.1,4,No,1.1,PhD,Noisy,27,No,5,2
+324,Female,18,Vadodara,India,Student,3,5.7,5-6 hours,Unhealthy,Class 12,11,4,5.6,1,No,4,High School,Moderate,78,Yes,5,3
+328,Male,28,Srinagar,India,Student,4,8.94,7-8 hours,Unhealthy,M.Pharm,12,1,5.5,9,Yes,3.6,Bachelor,Moderate,31,No,2,2
+335,Male,24,Hyderabad,India,Student,2,8.04,5-6 hours,Unhealthy,M.Tech,8,1,1.7,6,Yes,4.2,Master,Moderate,39,No,1,4
+336,Female,33,Srinagar,India,Student,1,9.71,More than 8 hours,Healthy,B.Com,5,2,3.1,3,No,2.6,Bachelor,Moderate,66,Yes,1,0
+337,Female,20,Kalyan,India,Student,3,8.04,5-6 hours,Moderate,Class 12,7,3,2.2,7,Yes,0.6,High School,Noisy,41,No,5,1
+340,Male,23,Kalyan,India,Student,5,7.87,7-8 hours,Moderate,BSc,11,4,3,7,Yes,2.8,Master,Quiet,46,No,3,2
+343,Male,23,Pune,India,Student,5,5.74,5-6 hours,Healthy,BA,11,4,5.1,3,No,2.2,Bachelor,Moderate,81,Yes,3,2
+347,Female,24,Ludhiana,India,Student,3,5.6,Less than 5 hours,Healthy,MBBS,9,2,1.7,7,Yes,2,Master,Moderate,7,Yes,4,1
+348,Male,25,Jaipur,India,Student,5,9.21,5-6 hours,Unhealthy,BSc,7,3,5,7,Yes,0.8,High School,Quiet,21,No,3,0
+351,Female,24,Bhopal,India,Student,4,7.9,5-6 hours,Moderate,MBBS,3,5,2.6,7,Yes,2.6,PhD,Noisy,49,No,2,2
+367,Female,24,Kolkata,India,Student,3,5.46,7-8 hours,Moderate,BSc,10,5,5.9,3,No,2.8,Master,Quiet,56,No,3,1
+370,Male,31,Nashik,India,Student,1,6.79,More than 8 hours,Unhealthy,MCA,0,3,1.2,9,No,0.7,Master,Noisy,33,Yes,1,2
+381,Male,20,Thane,India,Student,5,8.7,Less than 5 hours,Unhealthy,Class 12,4,5,3.9,3,Yes,3.1,Bachelor,Quiet,48,Yes,4,4
+385,Male,21,Ludhiana,India,Student,2,7.38,Less than 5 hours,Healthy,MA,2,5,4.3,7,No,1.1,Master,Noisy,37,No,5,0
+392,Male,25,Kanpur,India,Student,1,8.5,7-8 hours,Moderate,BA,11,4,5.6,0,Yes,4.2,Master,Quiet,56,Yes,5,3
+398,Male,19,Mumbai,India,Student,2,7.09,7-8 hours,Healthy,Class 12,11,1,1.8,4,No,2.4,PhD,Quiet,79,No,4,1
+407,Female,34,Surat,India,Student,3,9.82,More than 8 hours,Healthy,MSc,12,5,2.5,9,No,1.7,PhD,Quiet,6,Yes,2,4
+408,Male,24,Agra,India,Student,1,8.89,5-6 hours,Healthy,M.Tech,10,2,3.4,0,Yes,0.9,Bachelor,Noisy,70,No,1,3
+414,Male,33,Hyderabad,India,Student,5,7.94,Less than 5 hours,Moderate,B.Ed,8,1,4.7,5,Yes,4.5,Bachelor,Noisy,46,Yes,3,1
+420,Male,32,Patna,India,Student,3,9.11,7-8 hours,Moderate,MBBS,5,5,3.7,2,No,0.9,High School,Quiet,15,Yes,4,2
+421,Male,18,Bhopal,India,Student,3,6.75,7-8 hours,Moderate,Class 12,6,4,4.7,4,Yes,3.2,Master,Moderate,37,Yes,2,4
+423,Female,31,Indore,India,Student,1,7.53,Less than 5 hours,Unhealthy,M.Com,7,1,4.1,1,No,0.6,Master,Moderate,33,No,2,0
+425,Female,25,Kalyan,India,Student,3,9.49,7-8 hours,Healthy,BHM,9,2,4.4,0,No,3.2,PhD,Moderate,52,No,3,2
+429,Male,20,Surat,India,Student,1,9.01,5-6 hours,Unhealthy,Class 12,3,3,3.6,6,Yes,2.4,High School,Quiet,63,No,2,3
+441,Male,31,Ghaziabad,India,Student,2,7.64,7-8 hours,Unhealthy,MSc,0,1,5.1,9,Yes,2.3,Bachelor,Noisy,73,No,5,0
+447,Male,24,Surat,India,Student,5,5.27,7-8 hours,Unhealthy,MD,6,3,1.3,2,No,4.2,Bachelor,Noisy,71,Yes,3,4
+454,Male,24,Lucknow,India,Student,5,8.74,Less than 5 hours,Unhealthy,B.Pharm,8,4,5.8,5,Yes,3.7,High School,Quiet,81,No,5,3
+455,Female,23,Rajkot,India,Student,5,6,5-6 hours,Healthy,MSc,0,3,2.6,6,Yes,1.1,High School,Moderate,84,No,1,3
+457,Female,25,Varanasi,India,Student,2,9.44,More than 8 hours,Moderate,BSc,7,3,1.1,8,No,4.9,High School,Quiet,56,No,2,2
+464,Male,25,Srinagar,India,Student,2,5.75,More than 8 hours,Unhealthy,BSc,5,5,4.6,8,Yes,3.5,PhD,Moderate,89,No,1,3
+467,Female,25,Ghaziabad,India,Student,1,7.51,More than 8 hours,Moderate,B.Arch,7,1,4.1,5,Yes,1.7,Bachelor,Moderate,33,Yes,4,4
+475,Female,28,Kalyan,India,Student,2,6.37,5-6 hours,Unhealthy,BE,4,5,2.1,0,No,1.8,High School,Moderate,47,No,1,3
+477,Female,20,Ahmedabad,India,Student,4,6.95,More than 8 hours,Unhealthy,Class 12,12,5,5.5,8,No,4.3,Master,Moderate,75,Yes,3,1
+484,Female,24,Faridabad,India,Student,1,7.1,Less than 5 hours,Moderate,LLM,6,5,3.4,4,Yes,1.8,Bachelor,Noisy,17,Yes,1,0
+487,Male,23,Ludhiana,India,Student,1,9.66,5-6 hours,Moderate,B.Tech,12,3,2.1,5,No,4.5,High School,Quiet,39,No,2,1
+491,Male,19,Pune,India,Student,3,9.05,More than 8 hours,Moderate,Class 12,1,5,2.3,9,Yes,1.6,Master,Moderate,11,Yes,5,1
+494,Female,24,Hyderabad,India,Student,3,6.38,Less than 5 hours,Healthy,MCA,11,4,3.5,7,No,1.8,High School,Quiet,78,No,3,2
+503,Female,34,Surat,India,Student,2,8.5,More than 8 hours,Unhealthy,BSc,1,2,1.6,0,No,1.3,Master,Noisy,89,Yes,3,3
+508,Female,25,Ghaziabad,India,Student,2,7.09,5-6 hours,Healthy,B.Arch,8,4,5.1,3,No,1.2,Master,Moderate,16,Yes,5,4
+509,Male,28,Nashik,India,Student,1,8.97,7-8 hours,Unhealthy,BBA,3,4,2.9,5,No,4,Bachelor,Moderate,73,No,3,0
+510,Female,27,Bhopal,India,Student,3,8.95,More than 8 hours,Healthy,BBA,4,4,4.5,9,No,4.7,Bachelor,Noisy,41,No,4,0
+522,Male,22,Pune,India,Student,2,9.88,More than 8 hours,Healthy,BSc,0,2,1.9,8,No,4.1,PhD,Moderate,81,No,2,3
+523,Male,27,Kolkata,India,Student,4,6.75,5-6 hours,Healthy,BHM,10,4,5.1,8,No,1.7,Bachelor,Noisy,42,Yes,5,2
+525,Female,34,Hyderabad,India,Student,3,5.32,7-8 hours,Unhealthy,B.Tech,7,4,2.4,2,No,3.2,High School,Noisy,35,Yes,1,0
+529,Male,22,Nagpur,India,Student,4,6.27,5-6 hours,Moderate,B.Com,10,3,4.8,8,Yes,4.8,Master,Quiet,37,No,2,0
+530,Male,23,Lucknow,India,Student,3,7.7,More than 8 hours,Unhealthy,M.Com,11,3,3.8,1,No,2.8,Master,Moderate,75,No,2,0
+534,Male,24,Kalyan,India,Student,3,9.66,Less than 5 hours,Healthy,M.Pharm,9,1,3.1,8,Yes,1.7,PhD,Noisy,28,No,3,0
+535,Male,21,Delhi,India,Student,5,8.1,More than 8 hours,Moderate,B.Arch,9,3,1.1,7,No,1.5,High School,Quiet,82,No,5,3
+538,Male,26,Vasai-Virar,India,Student,4,9.59,Less than 5 hours,Unhealthy,BSc,11,5,5.8,2,Yes,3.7,High School,Quiet,59,Yes,2,1
+539,Female,24,Kolkata,India,Student,5,8.96,5-6 hours,Moderate,BCA,12,5,1.2,9,Yes,4.4,Master,Noisy,9,No,2,3
+541,Male,34,Kolkata,India,Student,2,7.51,Less than 5 hours,Moderate,MSc,7,1,4.3,3,Yes,4,Bachelor,Moderate,39,No,3,4
+543,Female,29,Agra,India,Student,5,5.32,Less than 5 hours,Unhealthy,ME,11,1,2,4,Yes,1.2,Bachelor,Noisy,27,Yes,2,3
+556,Male,33,Visakhapatnam,India,Student,1,8.95,5-6 hours,Unhealthy,MBBS,10,3,2.8,9,Yes,0.6,High School,Noisy,24,No,5,2
+580,Male,21,Patna,India,Student,1,8.5,5-6 hours,Healthy,BCA,10,3,2.3,2,Yes,3.3,PhD,Moderate,10,No,2,2
+587,Female,33,Delhi,India,Student,2,5.51,Less than 5 hours,Unhealthy,BSc,12,1,5.8,7,No,0.7,Master,Quiet,6,No,2,4
+589,Male,28,Lucknow,India,Student,4,7.43,More than 8 hours,Healthy,MBA,6,5,2.5,6,No,2.9,Bachelor,Quiet,66,Yes,4,2
+592,Male,27,Jaipur,India,Student,2,8.79,5-6 hours,Unhealthy,MCA,8,4,3.5,9,Yes,4.2,High School,Noisy,17,Yes,2,1
+594,Male,33,Meerut,India,Student,2,9.95,Less than 5 hours,Moderate,M.Tech,0,2,1.7,8,Yes,1.2,PhD,Moderate,19,Yes,2,0
+595,Female,18,Delhi,India,Student,5,9.79,Less than 5 hours,Unhealthy,Class 12,10,5,3.7,0,No,3.1,Master,Quiet,24,No,2,2
+598,Female,20,Kolkata,India,Student,5,5.37,Less than 5 hours,Moderate,Class 12,12,3,2.2,3,Yes,4.7,Master,Quiet,47,Yes,4,0
+608,Female,19,Mumbai,India,Student,3,6.86,Less than 5 hours,Unhealthy,Class 12,12,3,5.7,2,No,4,Master,Quiet,46,No,1,3
+609,Male,21,Ahmedabad,India,Civil Engineer,5,7.83,5-6 hours,Healthy,MSc,11,3,4.9,5,Yes,3.6,Master,Moderate,68,Yes,5,0
+611,Male,32,Vasai-Virar,India,Student,2,8.32,Less than 5 hours,Unhealthy,B.Tech,12,4,4,7,Yes,3.9,PhD,Quiet,46,Yes,1,1
+617,Male,32,Delhi,India,Student,3,5.51,7-8 hours,Moderate,LLB,7,4,4.1,4,Yes,1,High School,Noisy,78,No,5,0
+620,Male,33,Rajkot,India,Student,3,9.74,Less than 5 hours,Healthy,MD,5,1,4.8,3,No,1.6,PhD,Moderate,65,No,5,3
+623,Female,23,Bangalore,India,Student,5,5.66,Less than 5 hours,Unhealthy,MCA,11,4,4.7,6,No,3.8,Bachelor,Quiet,39,No,3,3
+626,Male,24,Kalyan,India,Student,3,7.48,Less than 5 hours,Unhealthy,M.Com,10,4,1.8,8,No,1.5,Bachelor,Noisy,8,No,4,2
+632,Female,20,Srinagar,India,Student,4,8.89,More than 8 hours,Unhealthy,Class 12,6,4,2.2,9,Yes,2.2,Master,Noisy,50,No,4,3
+658,Female,24,Ahmedabad,India,Student,5,8.23,Less than 5 hours,Moderate,B.Arch,4,3,4.7,0,Yes,3.2,Master,Moderate,39,Yes,3,1
+660,Male,22,Chennai,India,Student,5,8.81,Less than 5 hours,Unhealthy,MCA,8,1,2.6,6,Yes,4.5,Bachelor,Noisy,59,No,4,4
+662,Male,26,Nashik,India,Student,5,6.03,More than 8 hours,Unhealthy,BCA,11,2,5.4,5,Yes,4.1,Master,Moderate,7,Yes,2,4
+668,Female,18,Vasai-Virar,India,Student,5,9.44,More than 8 hours,Unhealthy,Class 12,3,5,3.4,5,Yes,1.5,PhD,Quiet,55,Yes,3,1
+671,Male,26,Vasai-Virar,India,Student,3,7.25,7-8 hours,Unhealthy,MD,9,5,4.1,4,Yes,1.8,Master,Quiet,89,Yes,4,4
+673,Male,33,Lucknow,India,Student,1,5.56,More than 8 hours,Unhealthy,MD,9,3,4.5,7,Yes,3.7,Bachelor,Noisy,15,No,3,0
+676,Female,19,Visakhapatnam,India,Student,3,5.68,5-6 hours,Moderate,Class 12,10,5,1.2,8,Yes,2.9,Master,Moderate,7,No,4,1
+681,Male,26,Jaipur,India,Student,3,5.14,7-8 hours,Healthy,MSc,12,1,1.4,0,Yes,4,PhD,Noisy,38,Yes,5,0
+683,Female,34,Lucknow,India,Student,3,7.61,Less than 5 hours,Moderate,BE,3,4,5.1,0,No,1.3,PhD,Moderate,66,Yes,5,3
+687,Female,22,Pune,India,Student,1,6.17,7-8 hours,Healthy,BCA,10,5,4.5,4,Yes,4.5,Bachelor,Quiet,28,No,1,3
+688,Female,28,Surat,India,Student,2,8.17,Less than 5 hours,Unhealthy,B.Tech,7,4,4.9,0,No,1,Master,Quiet,23,Yes,4,0
+695,Male,31,Lucknow,India,Student,5,9.87,Less than 5 hours,Unhealthy,LLB,12,2,1,8,No,2.9,Bachelor,Moderate,10,No,1,4
+696,Female,18,Varanasi,India,Student,3,9.86,More than 8 hours,Healthy,Class 12,9,2,2.9,9,No,2.7,Bachelor,Noisy,6,No,3,3

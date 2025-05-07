@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Edutrends Analyzer</title>
+    <style>
+        html, body{
+            height: 100%;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(to bottom, lightblue, #f5f6fa);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 2rem;
+            margin: 0;
+        }
+
+        h2 {
+            color: #2f3640;
+            margin-bottom: 1rem;
+        }
+
+        #chat-box {
+            width: 100%;
+            max-width: 720px;
+            height: 60vh;
+            min-height: 400px;
+            background: white;
+            padding: 1.25rem;
+            border-radius: 20px;
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .message {
+            font-size: 1.05rem;
+            line-height: 1.5;
+            margin: 0.5rem 0;
+            padding: 0.75rem 1rem;
+            border-radius: 12px;
+            max-width: 80%;
+            word-wrap: break-word;
+        }
+
+        .message.bot {
+            background-color: #e1eaf5;
+            color: #2d3436;
+            text-align: left;
+            align-self: flex-start;
+        }
+
+        .user {
+            background-color: #dff9fb;
+            align-self: flex-end;
+            text-align: right;
+        }
+
+        .bot {
+            background-color: #f1f2f6;
+            align-self: flex-start;
+        }
+
+        #input-area {
+            display: flex;
+            margin-top: 1rem;
+            width: 100%;
+            max-width: 720px;
+        }
+
+        input[type="text"] {
+            flex-grow: 1;
+            padding: 0.75rem;
+            border: 1px solid #ccc;
+            border-radius: 12px;
+            font-size: 1rem;
+        }
+
+        button {
+            margin-left: 0.5rem;
+            padding: 0.75rem 1.25rem;
+            background-color: #40739e;
+            color: white;
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #273c75;
+        }
+
+        img {
+            border-radius: 12px;
+            max-width: 100%;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 1rem;
+            }
+
+            #chat-box {
+                height: 65vh;
+                padding: 1rem;
+            }
+
+            input[type="text"] {
+                font-size: 0.95rem;
+                padding: 0.65rem;
+            }
+
+            button {
+                padding: 0.65rem 1rem;
+                font-size: 0.95rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Edutrends Analyzer</h2>
+
+    <div id="chat-box">
+        {% for chart in chart_paths %}
+        <img src="{{ chart }}" alt="Chart" style="margin-bottom: 15px;">
+        {% endfor %}
+    </div>
+
+    <div id="input-area">
+        <input type="text" id="user-input" placeholder="Ask something..." />
+        <button onclick="sendMessage()">Send</button>
+    </div>
+
+    <script>
+        async function sendMessage() {
+            const input = document.getElementById("user-input");
+            const chatBox = document.getElementById("chat-box");
+            const message = input.value.trim();
+            if (!message) return;
+
+            input.value = "";
+
+            chatBox.innerHTML += `<div class="message user">You: ${message}</div>`;
+
+            const res = await fetch("/chat", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ message }),
+            });
+
+            const data = await res.json();
+
+            const botMessageWrapper = document.createElement("div");
+            botMessageWrapper.classList.add("message", "bot");
+
+            botMessageWrapper.innerHTML = `<p>${data.response.replace(/\n/g, "<br>")}</p>`;
+            chatBox.appendChild(botMessageWrapper);
+
+            if (data.charts) {
+                data.charts.forEach(chart => {
+                    chatBox.innerHTML += `<img src="${chart}" style="margin-bottom: 15px;" />`;
+                });
+            }
+
+            chatBox.scrollTop = chatBox.scrollHeight;
+        }
+
+        document.getElementById("user-input").addEventListener("keypress", function (e) {
+            if (e.key === "Enter") sendMessage();
+        });
+    </script>
+</body>
+
+</html>
